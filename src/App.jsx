@@ -12,7 +12,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ScrollToTopButton from "./components/ScrollToTopButton";
-import details from "../details.json";
+import details from "../portfolio.json";
 import "./App.css";
 
 function App() {
