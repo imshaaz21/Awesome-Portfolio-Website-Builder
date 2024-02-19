@@ -1,0 +1,79 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* scroll-behavior: smooth; */
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #f8f9fa;
+  color: #0f0e0e;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #0f0e0e;
+  color: #f8f9fa;
+}
+
+/* App.css */
+.light-theme::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark-theme::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.light-theme::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark-theme::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Light Theme */
+.light-theme::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+  border-radius: 6px; /* Adjust border-radius for smoother edges */
+}
+
+/* Dark Theme */
+.dark-theme::-webkit-scrollbar-thumb {
+  background: #1c1b1b;
+  border-radius: 6px; /* Adjust border-radius for smoother edges */
+}
+
+/* Handle on hover */
+.light-theme::-webkit-scrollbar-thumb:hover {
+  background: #727272;
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover {
+  background: #d89216;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d89216;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+}
+
