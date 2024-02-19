@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "description": "YOUR_NAME's personal portfolio",
+    "title": "Your name | Portfolio",
+    "keywords": "YOUR_NAME, YOUR_NAME Portfolio, YOUR_NAME Resume, YOUR_NAME Projects, YOUR_NAME Blog, YOUR_NAME Contact",
+    "siteName": "YOUR_NAME",
+    "url": "https://GITHUB_USERNAME.github.io",
+    "image": "my-image.webp",
+    "type": "website"
+  },
+  "about": {
+    "name": "YOUR_NAME",
+    "image": "my-image.webp",
+    "description": "Duummy text about yourself. You can also include your interests, what you are passionate about, and what you are looking for.",
+    "cv": "/dummy.pdf",
+    "socials": {
+      "github": "GITHUB_URL",
+      "linkedin": "LINKEDIN_URL",
+      "email": "EMAIL"
+    }
+  },
+  "experiences": [
+    {
+      "position": "SAMPLE POSITION 1",
+      "workplace": "SAMPLE WORKPLACE 1",
+      "date": "Jan 2023 - Jun 2023",
+      "descriptions": [
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "position": "SAMPLE POSITION 2",
+      "workplace": "SAMPLE WORKPLACE 2",
+      "date": "Jun 2023 - Dec 2023",
+      "descriptions": [
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "field": "SAMPLE DEGREE",
+      "place": "SAMPLE UNIVERSITY",
+      "date": "2020 - 2024",
+      "descriptions": ["Description 1", "Description 2"]
+    },
+    {
+      "field": "SAMPLE DIPLOMA",
+      "place": "SAMPLE SCHOOL",
+      "date": "2018 - 2020",
+      "descriptions": ["Description 1", "Description 2"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sample Project 1",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "fff.png",
+      "link": "GITHUB_REPO_LINK"
+    }
+  ],
+  "contact": {
+    "email": "EMAIL",
+    "name": "YOUR_NAME"
+  }
+}
