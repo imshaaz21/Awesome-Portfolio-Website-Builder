@@ -1,4 +1,6 @@
-# Awesome Portfolio Website Builder
+# Awesome Portfolio Website 
+
+Build your own portfolio website
 
 ![Portfolio](https://img.shields.io/badge/Build-Awesome%20Portfolios-blue)
 
